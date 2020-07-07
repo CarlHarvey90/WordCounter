@@ -1,0 +1,12 @@
+<h1>WORD COUNT</h1>
+<button><a href="{% url 'about' %}">About</a></button>
+
+{{ DictionaryTest }}
+
+<form class="" action="{% url 'count' %}" >
+  <textarea name="fulltext" rows="8" cols="80">
+
+  </textarea>
+  <br>
+  <input type="submit" name="" value="Count!" />
+</form>
